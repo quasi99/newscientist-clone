@@ -6,36 +6,77 @@
 /* navigation */
 
 .navbar {
-	display: block;
-	background: blue;
+	display: fixed;
+	background: #fff;
+	min-height: 0;
+	border-bottom: 1px solid #bfbfbf;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+	left: 0;
+	clear: both;
+	width: 100%;
 }
 	
 .navbar-brand {
 	display: grid;
-}
-.container {
-	grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(18, 1fr);
+	background: transparent;
+	font-size: 100%;
+	justify-items: center;
 }
 
-.navbar-item {}
-.navbar-wraper {}
-.navbar-sig {}
+.navbar-item {
+	display: grid;
+	justify-self: center;
+
+}
+
+
+.navbar-item a {
+	text-decoration: none;
+	color: rgb(0, 40, 55);
+	font-size: 1rem;
+	line-height: 1.3125rem;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.nav-link a,
+.selec a {
+	color: #00b3e5;
+}
+
 
 /* content */
 
-.header {
-	background: #ECEEF1;
+.header .main-container {
 	display: flex;
+	flex-flow: column wrap;
 }
 
-.main-hero {
+
+.title {
+	font-size: 3.125rem;
+	font-weight: 700;
+	line-height: 3.1875rem;
+	letter-spacing: -.0375rem;
+	color: #000;
+	margin: 0 0 .93747rem;
+
+}
+
+.social {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.main-hero div {
 	background: yellow;
 	display: grid;
 }
 
 /* footer */
 
-.footer {
+.footer div {
 	background: green;
 	display: flex;
 }

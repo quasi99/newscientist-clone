@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+	font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* navigation */
+
+.navbar {
+	display: block;
+	background: blue;
+}
+	
+.navbar-brand {
+	display: grid;
+}
+.container {
+	grid-template: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.navbar-item {}
+.navbar-wraper {}
+.navbar-sig {}
+
+/* content */
+
+.header {
+	background: #ECEEF1;
+	display: flex;
+}
+
+.main-hero {
+	background: yellow;
+	display: grid;
+}
+
+/* footer */
+
+.footer {
+	background: green;
+	display: flex;
+}

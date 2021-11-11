@@ -64,9 +64,32 @@
 
 }
 
+.author {
+	color: #00b3e5;
+}
+
+.main-img {
+	display: block;
+	height: 400px;
+	width: 100%;
+}
+
+.img-title,
+.credt {
+	font-size: .75rem;
+	line-height: .9375rem;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
 .social {
 	display: flex;
 	flex-flow: row wrap;
+}
+
+.social-link {
+	margin-right: .91667rem;
 }
 
 .main-hero div {
@@ -74,6 +97,21 @@
 	display: grid;
 }
 
+.content-flex {
+	display: flex;
+}
+
+.art-cont {
+	max-width: calc(100% - 25.125rem);
+	width: auto;
+	margin: 0 auto;
+}
+
+.sidbar {
+	position: relative;
+	overflow: hidden;
+	width: 250px;
+}
 /* footer */
 
 .footer div {
